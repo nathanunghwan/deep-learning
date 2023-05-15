@@ -113,13 +113,13 @@ The activation function for the hidden layers was set to 'relu', which is a comm
 Since the model is a binary classifier with a single output (indicating whether the funding application was successful or not), I used a single output node. The output layer was assigned the 'sigmoid' activation function, as it suits binary classification with output values ranging from 0 to 1. 
 <p align="center">
 
-  <img src="Image/set.png" alt="# Define the model image" height = 200 width = 600>
+  <img src="Image/set.png" alt="# Define the model image" height = 350 width = 900>
 
 </p>
 The accuracy was 0.726.
 
 <p align="center">
-  <img src="Image/first.png" alt="# Accuracy image" height = 100 width = 600>
+  <img src="Image/first.png" alt="# Accuracy image" height = 200 width = 900>
 
 </p>
 I treated the 'Name' column by replacing names with a count less than 5 as 'Other' without dropping the column, which increased the number of features to 446. The accuracy was 0.79043. 
@@ -127,21 +127,21 @@ I treated the 'Name' column by replacing names with a count less than 5 as 'Othe
 
 
 <p align="center">
-  <img src="Image/name.png" alt="# name image" height = 400 width = 600>
+  <img src="Image/name.png" alt="# name image" height = 400 width = 900>
 
 </p>
 The accuracy was 0.7904.
 
 <p align="center">
 
-  <img src="Image/second.png" alt="# accuracy2 image" height = 100 width = 600>
+  <img src="Image/second.png" alt="# accuracy2 image" height = 200 width = 900>
 
 </p>
 Therefore, I attempted to include all values of the 'Name' column to see the outcome. In this case, the number of features increased to 19,611. Concerned about the potential problems of overfitting, increased computational complexity, and feature redundancy and irrelevance caused by having too many features, I decided to proceed with optimization tuning.
 
 <p align="center">
 
-  <img src="Image/third.png" alt="# Feature image" height = 50 width = 200>
+  <img src="Image/third.png" alt="# Feature image" height = 250 width = 900>
 
 </p>
 
@@ -154,12 +154,12 @@ I increased the number of hidden layers up to 5 and allowed Kerastuner to decide
 
 <p align="center">
 
-  <img src="Image/opt1.png" alt="# Feature image" height = 300 width = 500>
+  <img src="Image/opt1.png" alt="# Feature image" height = 450 width = 900>
 
 </p>
 <p align="center">
 
-  <img src="Image/opt2.png" alt="# Feature image" height = 120 width = 500>
+  <img src="Image/opt2.png" alt="# Feature image" height = 250 width = 900>
 
 </p>
 
@@ -167,12 +167,12 @@ When I classified the 'Name' column as 'Other' for Name count < 5 and performed 
 
 <p align="center">
 
-  <img src="Image/name3.png" alt="# Feature image" height = 200 width = 500>
+  <img src="Image/name3.png" alt="# Feature image" height = 350 width = 900>
 
 </p>
 <p align="center">
 
-  <img src="Image/feat2.png" alt="# Feature image" height = 80 width = 500>
+  <img src="Image/feat2.png" alt="# Feature image" height = 220 width = 900>
 
 </p>
 
@@ -181,12 +181,12 @@ As a result, I was able to achieve an increase in accuracy up to 0.8000.
 
 <p align="center">
 
-  <img src="Image/result.png" alt="# Feature image" height = 120 width = 500>
+  <img src="Image/result.png" alt="# Feature image" height = 300 width = 900>
 
 </p>
 <p align="center">
 
-  <img src="Image/result3.png" alt="# Feature image" height = 200 width = 500>
+  <img src="Image/result3.png" alt="# Feature image" height = 350 width = 900>
 
 </p>
 
