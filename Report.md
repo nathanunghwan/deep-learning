@@ -186,7 +186,7 @@ As a result, I was able to achieve an increase in accuracy up to 0.8000.
 </p>
 <p align="center">
 
-  <img src="Image/result3.png" alt="# Feature image" height = 350 width = 900>
+  <img src="Image/best.png" alt="# Feature image" height = 350 width = 900>
 
 </p>
 
@@ -201,3 +201,10 @@ As a result, I was able to achieve an increase in accuracy up to 0.8000.
 
 `It was observed that increasing the number of hidden layers up to five resulted in an increase in accuracy to the 80% range.`
 `However Increasing the number of hidden layers can result in overfitting, increased computational complexity, gradient vanishing or exploding, and difficulties in model design. It is crucial to strike a balance between model performance and computational efficiency when adding hidden layers.`
+
+- I recommend the best model as followed:
+<p align="center">
+
+  <img src="Image/best.png" alt="# Feature image" height = 350 width = 900>
+
+</p>
